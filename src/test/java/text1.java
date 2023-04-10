@@ -34,7 +34,7 @@ public class text1 {
     }
 
     private static void method14() {
-        
+
     }
 
     private static void method13() {
