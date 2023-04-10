@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--使用set方法注入属性-->
+    <bean id="s" class="lx.student">
+        <property name="name" value="小邹"></property>
+    </bean>
+    <!--使用全参构造方法注入属性-->
+    <bean id="User" class="lx.User">
+        <constructor-arg name="name" value="用户"></constructor-arg>
+        <constructor-arg name="age" value="12"/>
+    </bean>
+
+</beans>
