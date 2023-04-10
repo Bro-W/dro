@@ -18,7 +18,7 @@ public class UserService {
     public void bankMoney(){
 
             userDao.addMoney();
-            int i = 10/0;
+//            int i = 10/0;
             userDao.reduceMoney();
             System.out.println("执行完成");
 

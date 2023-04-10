@@ -19,7 +19,8 @@ import java.util.Scanner;
  */
 public class text1 {
     public static void main(String[] args) {
-        method13();
+        method14();
+//        method13();
 //        method12();
 //        method11();
 //        method10();
@@ -30,6 +31,10 @@ public class text1 {
 //        method5();
 //        method4();
 //        method2();
+    }
+
+    private static void method14() {
+        
     }
 
     private static void method13() {
