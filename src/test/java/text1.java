@@ -34,6 +34,7 @@ public class text1 {
     }
 
     private static void method14() {
+        System.out.println("哈哈哈");
 
     }
 
